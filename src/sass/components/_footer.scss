@@ -1,0 +1,56 @@
+#footer {
+  background-color: var(--bs-secondary);
+  padding: 2.5rem 0;
+
+  .row {
+    p {
+      color: var(--bs-primary);
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      @include media($bp-lg) {
+        justify-content: start;
+        margin-bottom: 0 !important;
+      }
+
+      a {
+        text-decoration: none;
+        margin-left: 0.5rem;
+        @include font-secondary;
+
+        &:hover {
+          text-decoration: underline;
+        }
+
+        &:visited {
+          color: var(--bs-accent);
+        }
+      }
+    }
+
+    div:last-child {
+      text-align: right;
+      font-size: 2rem;
+      text-align: center;
+      @include media($bp-lg) {
+        text-align: right;
+      }
+
+      a {
+        text-decoration: none;
+        color: var(--bs-primary);
+        @include transition;
+
+        &:hover {
+          color: var(--bs-accent);
+        }
+
+        &:nth-child(2) {
+          margin-left: 1rem;
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+}

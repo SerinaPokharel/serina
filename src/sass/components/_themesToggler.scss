@@ -1,0 +1,17 @@
+#theme {
+  background-color: transparent;
+  border: none;
+  color: var(--bs-secondary);
+  font-size: 1.5rem;
+  position: fixed;
+  bottom: 3vh;
+  right: 3vh;
+
+  i {
+    filter: drop-shadow(0 3px 5px rgba(var(--bs-primary-rgb), 1));
+  }
+
+  .bi-brightness-high-fill {
+    display: none;
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "plugins": {
+    "@fullhuman/postcss-purgecss": {
+      "content": [
+        "./**/*.html"
+      ],
+      "variables": true,
+      "safelist": [
+        "is-invalid",
+        "is-valid",
+        "aos-init",
+        "aos-animate",
+        "collapsing",
+        "show",
+        "collapsed",
+        "data-bs-spy",
+        "data-bs-target",
+        "data-bs-offset",
+        "data-bs-toggle",
+        "data-aos",
+        "data-aos-delay",
+        "data-aos-duration"
+      ]
+    }
+  }
+}

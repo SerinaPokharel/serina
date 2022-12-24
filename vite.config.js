@@ -1,8 +1,12 @@
-import { defineConfig } from "vite";
-import vue from "@vitejs/plugin-vue";
-
-
-export default defineConfig({
-  base: "/serina/",
-  plugins: [vue()]
-});
+const path = require('path');
+module.exports = {
+  root: 'src',
+  build: {
+    outDir: '../dist'
+  },
+  resolve: {
+    alias: {
+      '@': path.join(__dirname, 'src')
+    }
+  }
+};

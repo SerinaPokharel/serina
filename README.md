@@ -42,18 +42,3 @@
 ├── README.md
 └── vite.config.js
 ```
-
-## How To Use 🔧
-
-To use this template read the [GUIDE.md](./GUIDE.md) file.
-
-## License 📄
-
-This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
-
-## Sponsor 💛
-
-Give a ⭐ if you like this website!
-<br>
-
-<a href="https://www.buymeacoffee.com/zougari"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
